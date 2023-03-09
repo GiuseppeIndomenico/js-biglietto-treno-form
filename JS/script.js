@@ -42,7 +42,7 @@ function dati() {
             </div>
 
             <div class="card-body">
-                <div class="card m-2 p-3">
+                <div class="card m-2 p-3 pb-0">
 
                     <div class="card-header">
                         <h6> Destinazione: Vattelapesca-city!</h6>
@@ -60,6 +60,9 @@ function dati() {
                         prezzo: ${totalPrice} &euro;
                         
                         </h4>
+
+                        <p class="text-end fs-6 fst-italic
+                        "> Condoglianze per aver scelto la nostra compagnia...Buon Viaggio!</p>
                     </div>
                 </div>
                          
@@ -97,7 +100,7 @@ function dati() {
             </div>
 
             <div class="card-body">
-                <div class="card m-2 p-3">
+                <div class="card m-2 p-3 pb-0">
 
                     <div class="card-header">
                         <h6> Destinazione: Vattelapesca-city!</h6>
@@ -115,6 +118,9 @@ function dati() {
                         prezzo: ${totalPrice} &euro;
                         
                         </h4>
+
+                        <p class="text-end fs-6 fst-italic
+                        "> Condoglianze per aver scelto la nostra compagnia...Buon Viaggio!</p>
                     </div>
                 </div>
                          
@@ -145,7 +151,7 @@ function dati() {
             </div>
 
             <div class="card-body">
-                <div class="card m-2 p-3">
+                <div class="card m-2 p-3 pb-0">
 
                     <div class="card-header">
                         <h6> Destinazione: Vattelapesca-city!</h6>
@@ -163,6 +169,9 @@ function dati() {
                         prezzo: ${totalPrice} &euro;
                         
                         </h4>
+
+                        <p class="text-end fs-6 fst-italic
+                        "> Condoglianze per aver scelto la nostra compagnia...Buon Viaggio!</p>
                     </div>
                 </div>
                          

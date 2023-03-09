@@ -10,12 +10,18 @@ Sulla base di queste informazioni dovrà calcolare il prezzo totale del bigliett
 
 const priceKm = 0.21
 
-let userAge 
-let distanceKm  
-console.log(userAge)
-console.log(distanceKm)
 
-let totalPrice; 
+
+let userAge= document.getElementById("age").value
+let distanceKm= document.getElementById("distance").value  
+
+let totalPrice= distanceKm * priceKm 
+
+
+document.getElementById("calcPrice").addEventListener("click",totalPrice)
+
+
+console.log (totalPrice)
 
 
 function total() {
@@ -23,6 +29,5 @@ function total() {
     
     
     
-    console.log (total)
 }
 

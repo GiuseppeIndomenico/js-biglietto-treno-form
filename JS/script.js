@@ -30,28 +30,44 @@ function dati() {
         let totalPrice = (distanceKm * priceKm) * 0.80
 
 
-        
+
         document.getElementById("ticket").innerHTML =
 
             `
                 
-                
-                
-                <h1>
-                questo è il tuo biglietto!
         
-                </h1>
-                
-                <p>
-                età: ${userAge} anni
-                </p>
-                <br>
-                <p>distaza: ${distanceKm}Km</p>
-                
-                <h4>
-                prezzo: ${totalPrice} &euro;
-                
-                </h4>
+            <div class="card-header ">
+                <h3 class="text-center">Ecco il tuo biglietto!</h3>
+
+            </div>
+
+            <div class="card-body">
+                <div class="card m-2 p-3">
+
+                    <div class="card-header">
+                        <h6> Destinazione: Vattelapesca-city!</h6>
+                    </div>
+                    
+                    <div class="card-body">
+        
+                        <p>
+                        età: ${userAge} anni
+                        </p>
+                        
+                        <p>distanza: ${distanceKm}Km</p>
+                        
+                        <h4>
+                        prezzo: ${totalPrice} &euro;
+                        
+                        </h4>
+                    </div>
+                </div>
+                         
+
+
+            </div>
+
+   
                 
                 `
 
@@ -68,28 +84,44 @@ function dati() {
 
 
 
-        
+
         document.getElementById("ticket").innerHTML =
 
             `
                 
                 
-                
-                <h1>
-                questo è il tuo biglietto!
+              
+            <div class="card-header ">
+                <h3 class="text-center">Ecco il tuo biglietto!</h3>
+
+            </div>
+
+            <div class="card-body">
+                <div class="card m-2 p-3">
+
+                    <div class="card-header">
+                        <h6> Destinazione: Vattelapesca-city!</h6>
+                    </div>
+                    
+                    <div class="card-body">
         
-                </h1>
-                
-                <p>
-                età: ${userAge} anni
-                </p>
-                <br>
-                <p>distaza: ${distanceKm}Km</p>
-                
-                <h4>
-                prezzo: ${totalPrice} &euro;
-                
-                </h4>
+                        <p>
+                        età: ${userAge} anni
+                        </p>
+                        
+                        <p>distanza: ${distanceKm}Km</p>
+                        
+                        <h4>
+                        prezzo: ${totalPrice} &euro;
+                        
+                        </h4>
+                    </div>
+                </div>
+                         
+
+
+            </div>
+
                 
                 `
 
@@ -107,22 +139,37 @@ function dati() {
             `
                 
                 
-                
-                <h1>
-                questo è il tuo biglietto!
+            <div class="card-header ">
+                <h3 class="text-center">Ecco il tuo biglietto!</h3>
+
+            </div>
+
+            <div class="card-body">
+                <div class="card m-2 p-3">
+
+                    <div class="card-header">
+                        <h6> Destinazione: Vattelapesca-city!</h6>
+                    </div>
+                    
+                    <div class="card-body">
         
-                </h1>
-                
-                <p>
-                età: ${userAge} anni
-                </p>
-                <br>
-                <p>distaza: ${distanceKm}Km</p>
-                
-                <h4>
-                prezzo: ${totalPrice} &euro;
-                
-                </h4>
+                        <p>
+                        età: ${userAge} anni
+                        </p>
+                        
+                        <p>distanza: ${distanceKm}Km</p>
+                        
+                        <h4>
+                        prezzo: ${totalPrice} &euro;
+                        
+                        </h4>
+                    </div>
+                </div>
+                         
+
+
+            </div>
+
                 
                 `
 

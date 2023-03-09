@@ -57,7 +57,7 @@ function dati() {
                         <p>distanza: ${distanceKm}Km</p>
                         
                         <h4>
-                        prezzo: ${totalPrice} &euro;
+                        prezzo: ${totalPrice.toFixed(2)} &euro;
                         
                         </h4>
 
@@ -115,7 +115,7 @@ function dati() {
                         <p>distanza: ${distanceKm}Km</p>
                         
                         <h4>
-                        prezzo: ${totalPrice} &euro;
+                        prezzo: ${totalPrice.toFixed(2)} &euro;
                         
                         </h4>
 
@@ -166,7 +166,7 @@ function dati() {
                         <p>distanza: ${distanceKm}Km</p>
                         
                         <h4>
-                        prezzo: ${totalPrice} &euro;
+                        prezzo: ${totalPrice.toFixed(2)} &euro;
                         
                         </h4>
 

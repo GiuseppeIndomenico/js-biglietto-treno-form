@@ -14,18 +14,40 @@ const priceKm = 0.21
 
 
 
-document.getElementById("calcPrice").addEventListener("click",function () {
-  
-  
-    let userAge= document.getElementById("age").value
-    let distanceKm= document.getElementById("distance").value  
-    let totalPrice= distanceKm * priceKm 
-    
-    console.log (totalPrice)
-    
+document.getElementById("calcPrice").addEventListener("click", dati)
+
+
+
+
+function dati() {
+
+
+    let userAge = document.getElementById("age").value
+    let distanceKm = document.getElementById("distance").value
+    let totalPrice = distanceKm * priceKm
+
+    if (userAge < 18) {
+
+        let totalPrice = (distanceKm * priceKm) * 0.80
+
+        console.log(totalPrice)
+
+    } else if (userAge > 65) {
+
+
+        let totalPrice = (distanceKm * priceKm) * 0.60
+
+        console.log(totalPrice)
+    }
+
+    else {
+
+
+        console.log(userAge)
+        console.log(distanceKm)
+        console.log(totalPrice)
+
+    }
+
+
 }
-)
-
-
-
-

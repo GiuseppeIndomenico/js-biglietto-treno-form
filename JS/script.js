@@ -18,7 +18,6 @@ document.getElementById("calcPrice").addEventListener("click", dati)
 
 
 
-
 function dati() {
 
 
@@ -30,6 +29,36 @@ function dati() {
 
         let totalPrice = (distanceKm * priceKm) * 0.80
 
+
+        
+        document.getElementById("ticket").innerHTML =
+
+            `
+                
+                
+                
+                <h1>
+                questo è il tuo biglietto!
+        
+                </h1>
+                
+                <p>
+                età: ${userAge} anni
+                </p>
+                <br>
+                <p>distaza: ${distanceKm}Km</p>
+                
+                <h4>
+                prezzo: ${totalPrice} &euro;
+                
+                </h4>
+                
+                `
+
+
+
+
+
         console.log(totalPrice)
 
     } else if (userAge > 65) {
@@ -37,10 +66,72 @@ function dati() {
 
         let totalPrice = (distanceKm * priceKm) * 0.60
 
+
+
+        
+        document.getElementById("ticket").innerHTML =
+
+            `
+                
+                
+                
+                <h1>
+                questo è il tuo biglietto!
+        
+                </h1>
+                
+                <p>
+                età: ${userAge} anni
+                </p>
+                <br>
+                <p>distaza: ${distanceKm}Km</p>
+                
+                <h4>
+                prezzo: ${totalPrice} &euro;
+                
+                </h4>
+                
+                `
+
+
+
         console.log(totalPrice)
     }
 
     else {
+
+
+
+        document.getElementById("ticket").innerHTML =
+
+            `
+                
+                
+                
+                <h1>
+                questo è il tuo biglietto!
+        
+                </h1>
+                
+                <p>
+                età: ${userAge} anni
+                </p>
+                <br>
+                <p>distaza: ${distanceKm}Km</p>
+                
+                <h4>
+                prezzo: ${totalPrice} &euro;
+                
+                </h4>
+                
+                `
+
+
+
+
+
+
+
 
 
         console.log(userAge)

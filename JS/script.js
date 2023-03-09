@@ -15,13 +15,12 @@ const priceKm = 0.21
 let userAge= document.getElementById("age").value
 let distanceKm= document.getElementById("distance").value  
 
-let totalPrice= distanceKm * priceKm 
 
 
 document.getElementById("calcPrice").addEventListener("click",function () {
     distanceKm * priceKm
     
-      
+    let totalPrice= distanceKm * priceKm 
     
     console.log (totalPrice)
     

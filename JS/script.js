@@ -18,7 +18,7 @@ let distanceKm= document.getElementById("distance").value
 let totalPrice= distanceKm * priceKm 
 
 
-document.getElementById("calcPrice").addEventListener("click",totalPrice)
+document.getElementById("calcPrice").addEventListener("click",total)
 
 
 console.log (totalPrice)
@@ -27,6 +27,7 @@ console.log (totalPrice)
 function total() {
     distanceKm * priceKm
     
+    console.log(total)
     
     
 }
